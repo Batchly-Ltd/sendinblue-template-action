@@ -1,0 +1,15 @@
+{
+  "name": "sendinblue-template-action",
+  "version": "1.0.0",
+  "description": "Github action for managing email templates for Sendinblue",
+  "main": "index.js",
+  "repository": "git@github.com:Batchly-Ltd/sendinblue-template-action.git",
+  "author": "steve@batchly.co.uk",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
