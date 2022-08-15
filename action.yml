@@ -3,9 +3,6 @@ description: Creates and updates email templates for Sendinblue
 author: Batchly
 
 inputs:
-  GITHUB_TOKEN:
-    description: GitHub token
-    required: true
   SENDINBLUE_API_KEY:
     description: Sendinblue API token
     required: true

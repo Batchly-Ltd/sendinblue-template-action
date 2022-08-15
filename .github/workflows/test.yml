@@ -15,3 +15,5 @@ jobs:
       - run: yarn install
       - run: yarn build
       - uses: ./
+        with:
+          SENDINBLUE_API_KEY: ${{secrets.SENDINBLUE_API_KEY}}
