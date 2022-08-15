@@ -10,6 +10,9 @@
     "build": "ncc build src/action.js -o dist"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.34.0"
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3",
+    "@vercel/ncc": "^0.34.0",
+    "sib-api-v3-sdk": "^8.4.0"
   }
 }
